@@ -18,7 +18,7 @@ tablo()
 class Program():
     def __init__(self):
         pencere = Tk()
-        pencere.title("Konuralp",)
+        pencere.title("Try",)
         pencere.geometry("400x400")
         pencere.configure(background="black")
 
