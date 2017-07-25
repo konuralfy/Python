@@ -6,7 +6,7 @@
 #How To Play
 #Guessing 4 digit number
 #If picked numbers are correct and in the correct place you get Cow,
-#If numbers are correct but in the wrong place you get Bulls.
+#If numbers are correct but in the wrong place you get Bull.
 
 
 import random
