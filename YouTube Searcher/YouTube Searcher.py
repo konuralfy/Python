@@ -48,11 +48,8 @@ class YouTube:
 
         canvas.configure(yscrollcommand=scrollbar.set)
 
-        # update scrollregion after starting 'mainloop'
-        # when all widgets are in canvas
         canvas.bind('<Configure>', on_configure)
 
-        # --- put frame in canvas ---
 
         frame = Frame(canvas)
         canvas.create_window((0, 0), window=frame, anchor='nw')
