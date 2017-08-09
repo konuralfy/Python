@@ -30,7 +30,7 @@ while True:							# checks if i found a match
     im1 = pyautogui.screenshot('find.png', region=(500, 250, 700, 650))  # takes screenshot of middle of client
     img = Image.open('find.png')
     result = pytesseract.image_to_string(img)			# converts image to text
-    if "BULUNDU" in result:					# if there is 'FOUND' in text
+    if "FOUND" in result:					# if there is 'FOUND' in text
         time.sleep(2)
         pyautogui.moveTo(880, 750)				# then clicks 'accept' button 
         pyautogui.click()
